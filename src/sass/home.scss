@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.tilteHome {
+    color: $colorWhite;
+    font-family: 'Albert Sans', sans-serif;
+    text-shadow: 0px 2px 3px $colorBgShadow;
+    padding-top: 260px;
+}
+
+.ourGoal {
+    background-color: $colorBlack;
+    height: 60vh;
+    color: $colorWhite;
+
+    .textOurGoal {
+        border-top: 2px solid $colorYellow;
+    }
+
+    .imgOurGoal {
+        width: 800px;
+    }
+
+}
+
+.endOurGoal {
+    background-image: url(../img/277550343_5450095735001464_1984801189581840151_n.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    height: 78vh;
+
+    .questionCv {
+        color: $colorWhite;
+        padding-top: 100px;
+        border-bottom: 3px solid $colorYellow;
+    }
+
+    .questionCvMob {
+
+        color: $colorWhite;
+        padding-top: 100px;
+        border-bottom: 3px solid $colorYellow;
+
+    }
+}
+
+.threeCBg {
+    background-image: url(../img/bg-amarelo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 40px 0px;
+
+    .threeC {
+        display: flex;
+        
+        .threeCImg {
+            width: 120px;
+            padding: 15px;
+            background-color: $colorYellow;
+            border-radius: 2% 32% 2% 32%;
+        }
+    }
+}
+
+.networkCv {
+    background-color: $colorBlack;
+    height: auto;
+    color: $colorWhite;
+
+    .itemsNet {
+        color: $colorBlack;
+        text-align: justify;
+    }
+}
+
+
+.bgSchedule {
+    background-image: url(../img/bg-branco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: auto;
+    padding: 80px 0px 100px 0px;
+    color: $colorBlack;
+
+    
+}
+
+.cvm {
+    height: 100vh;
+
+    .itemsCvm {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .TextCvm {
+        height: 99vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 150px 0px 150px 0px;
+        
+    }
+        
+    .topTextCvm {
+        color: $colorWhite;
+        text-shadow: 0px 1px 2px $colorBgShadow;
+        
+    }
+
+    .outTextCvm {
+        color: $colorWhite;
+        text-shadow: 0px 2px 3px $colorBgShadow;
+      
+    }
+   
+}
+
+.bgNews {
+    height: 80vh;
+    background-image: url(../img/bg-branco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    .news {
+       
+        .itemsNews {
+            background-color: $colorWhite;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px #00000028;
+            
+            .imgItemsNews {
+                border-radius: 5px 0px 0px 5px;
+            }
+        }
+    }
+}
+
+.newsletter {
+    background-color: $colorDark;
+    color: $colorWhite;
+    padding: 40px 0px;
+
+    .emailNewsletter {
+        border-radius: 0px;
+        padding: 10px 20px;
+        width: 30vh;
+    }
+
+
+    .btnNewsletter {
+        padding: 11px 20px;
+        border-radius: 0px;
+        border: none;
+        background-color: $colorYellow;
+    
+        &:hover {
+            background-color: $colorBlack;
+            border-color: $colorBlack;
+            transition: 0.5s; 
+            color: $colorWhite;    
+        }
+    }
+
+}
+
+.btnYellow {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    border-color: $colorYellow;
+    background-color: $colorYellow;
+    color: $colorBlack;
+    font-size: 18px;
+
+    &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+        color: $colorWhite;
+        transition: 0.5s;  
+        
+        button {
+            color: $colorWhite;
+            transition: 0.5s; 
+        }
+    }
+}
+
+.btnInvertYellow {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    border-color: $colorYellow;
+    background-color: $colorYellow;
+    color: $colorBlack;
+    font-size: 18px;
+
+    &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+        color: $colorWhite;
+        transition: 0.5s;  
+        
+        button {
+            color: $colorWhite;
+            transition: 0.5s; 
+        }
+    }
+}
+
+.btnNetYellow {
+    text-align: center;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 2px;
+    border-color: $colorYellow;
+    background-color: $colorYellow;
+    color: $colorBlack;
+    font-size: 18px;
+
+    &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+        color: $colorWhite;
+        transition: 0.5s;  
+        
+        button {
+            color: $colorWhite;
+            transition: 0.5s; 
+        }
+    }
+}
+
+.bordb {
+    padding-bottom: 5px;
+    border-bottom: 3px solid $colorYellow;
+}
+
+#igrejas {
+    border:none;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 15px 60px;
+    font-size: 30px;
+
+}
+@media (min-width: 480px) {
+    .questionCvMob {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+
+    .questionCv {
+        display: none;
+    }
+
+    .imgAovivo {
+        display: none;
+    }
+
+    .cultos {
+        margin-top: 10px;
+    }
+
+    .threeCItem {
+        margin-top: 20px;
+    }
+
+    #igrejas {
+        padding: 15px 60px 15px 0px;
+        font-size: 24px;
+    }
+
+    .TextCvm {
+        padding: 150px 0px 150px 24px;
+    }
+
+    .btnInvertYellow {
+        
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+        color: $colorWhite;
+    
+        &:hover {
+            border-color: $colorYellow;
+            background-color: $colorYellow;
+            color: $colorBlack;
+            transition: 0.5s;  
+            
+            button {
+                color: $colorWhite;
+                transition: 0.5s; 
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .imgOurGoal {
+        display: none;
+    }
+
+    .threeC {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 1440px) {
+
+    .imgOurGoal {
+        width: 200px;
+    }
+}

@@ -1,0 +1,162 @@
+
+.containerFooter {
+    background-image: url(../img/cultos/footerganblack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    height: 60vh;
+    color: $colorWhite;
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+    padding: 0;
+
+    .containerFooter00 {
+        
+        .brandFooter {
+            width: 140px;
+        }
+
+        .titleFooter {
+            border-bottom: 2px solid $colorYellow;
+        }
+
+        .itemFooter {
+            a {
+                color: $colorWhite;
+            }
+        }
+
+        #button {
+            padding: 10px 20px;
+            border-radius: 0px;
+            border-color: $colorYellow;
+            background-color: $colorYellow;
+
+            &:hover {
+                background-color: $colorBlack;
+                border-color: $colorBlack;
+                transition: 0.5s;
+                
+                a {
+                    color: $colorWhite;
+                    transition: 0.5s;
+                }
+            }
+
+            a {
+                color: $colorBlack;
+                text-decoration: none;
+            }
+        }
+
+
+
+    }
+
+}
+
+.btnYellowFooter {
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 27px;
+    border-radius: 2px;
+    border-color: $colorYellow;
+    background-color: $colorYellow;
+    color: $colorBlack;
+    font-size: 18px;
+
+    &:hover {
+        background-color: $colorBlack;
+        border-color: $colorBlack;
+        color: $colorWhite;
+        transition: 0.5s;  
+        
+        button {
+            color: $colorWhite;
+            transition: 0.5s; 
+        }
+    }
+}
+
+.footerEnd {
+    background-color: $colorBlack;
+    height: 8vh;
+    color: $colorWhite;
+
+    .itemfooterEnd {
+        font-size: 12px;
+    }
+
+    .itemLink {
+        text-decoration: none;
+        color: $colorYellow;
+    }
+
+    .textIconsFooter {
+        font-size: 13px;
+        align-items: center;
+        margin-right: 12px;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    .containerFooter {
+        height: 80vh;
+    }
+
+    .titleFooter {
+        font-size: 22px;
+    }
+
+    .itemFooter {
+        font-size: 14px;
+    }
+
+    .btnYellowFooter {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 482px) {
+    .itemfooterEnd {
+       font-size: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footerEnd {
+        height: 15vh;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .containerFooter00 {
+        flex-wrap: wrap;
+        
+        .containerBrandFooter {
+            display: none;
+        }
+    }
+
+    #itemsFooter {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    #addressFooter {
+        margin-right: 48px;
+    }
+    .btnYellowFooter {
+        font-size: 14px;
+    }
+
+    .imgAppCV {
+        display: none;
+    }
+}
