@@ -7,7 +7,7 @@
     box-shadow: 0 3px 8px #2e2e2e2a, 0 2px 2px #2e2e2e2a;
     
     .imgBrand {
-        width: 120px;
+        width: 115px;
         margin-right: 30px;
     }
 
@@ -30,6 +30,10 @@
         bottom: 0;
         left: 0;
         transition: 0.2s ease-in-out;
+    }
+
+    .navEndItemMob {
+        color: #ffffff;
     }
 
     .navEndItem:hover::after{
@@ -62,14 +66,26 @@
     display: none;
 }
 
+.navbar-toggler {
+    border: none;
+}
 @media (max-width: 990px) {
     .itemsNavCV {
         display: flex;
         flex-direction: column;
     }
 
+    .navItem1 {
+        margin-top: 3rem;
+        padding-top: 2.5rem;
+    }
+
     .linkFundMobile {
         display: contents;
+    }
+
+    #navEdge {
+        border-top: 0.5px solid $colorYellow;
     }
 
     .linkFundPc {

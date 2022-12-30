@@ -60,7 +60,7 @@
     padding: 10px 20px;
     border: none;
     margin-top: 27px;
-    border-radius: 2px;
+    border-radius: 8px;
     border-color: $colorYellow;
     background-color: $colorYellow;
     color: $colorBlack;
@@ -123,8 +123,21 @@
 }
 
 @media (max-width: 482px) {
+
+    .btnYellowFooter {
+        font-size: 0.8em;
+    }
+
+    .containerFooter {
+        height: auto;
+    }
+
+    .itemFooter {
+        font-size: 13px;
+    }
+
     .itemfooterEnd {
-       font-size: 5px;
+       font-size: 4px;
     }
 }
 

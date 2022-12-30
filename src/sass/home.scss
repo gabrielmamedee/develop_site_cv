@@ -24,7 +24,7 @@
 #titlecvm {
     font-family: 'Bebas Neue', cursive;
     color: $colorWhite;
-    font-size: clamp(4em, 1em + 3vw, 7em);
+    font-size: clamp(3.1em, 1em + 3vw, 7em);
     text-shadow: 0px 1px 2px $colorBgShadow;
     
     margin: 0;
@@ -68,6 +68,7 @@
     background-attachment: fixed;
     height: 78vh;
 
+
     .questionCv {
         color: $colorWhite;
         padding-top: 100px;
@@ -106,6 +107,10 @@
     background-color: $colorBlack;
     height: auto;
     color: $colorWhite;
+
+    .networkCvText {
+        border-left: 3px solid $colorYellow;
+    }
 
     .itemsNet {
         color: $colorBlack;
@@ -194,10 +199,12 @@
 
 
     .btnNewsletter {
+        font-family: 'Albert Sans', sans-serif;
         padding: 11px 20px;
-        border-radius: 0px;
+        border-radius: 0px 6px 6px 0px;
         border: none;
         background-color: $colorYellow;
+        color: $colorBlack;
     
         &:hover {
             background-color: $colorBlack;
@@ -214,11 +221,11 @@
     text-align: center;
     padding: 10px 20px;
     border: none;
-    border-radius: 2px;
+    border-radius: 6px;
     border-color: $colorYellow;
     background-color: $colorYellow;
     color: $colorBlack;
-    font-size: 18px;
+    font-size: 1em;
 
     &:hover {
         background-color: $colorBlack;
@@ -238,7 +245,7 @@
     text-align: center;
     padding: 10px 20px;
     border: none;
-    border-radius: 2px;
+    border-radius: 6px;
     border-color: $colorYellow;
     background-color: $colorYellow;
     color: $colorBlack;
@@ -261,7 +268,7 @@
     text-align: center;
     border: none;
     padding: 0px 20px;
-    border-radius: 2px;
+    border-radius: 6px;
     border-color: $colorYellow;
     background-color: $colorYellow;
     color: $colorBlack;
@@ -300,6 +307,10 @@
 }
 @media (max-width: 480px) {
 
+    .btnYellow {
+        font-size: 0.8em;
+    }
+
     .itemsTitle {
         flex-wrap: wrap;
     }
@@ -310,6 +321,10 @@
 
     #title2 {
         text-align: start;
+    }
+
+    #title2cvm {
+        font-size: 18px;
     }
 
     .questionCv {
@@ -342,6 +357,7 @@
         background-color: $colorBlack;
         border-color: $colorBlack;
         color: $colorWhite;
+        font-size: 0.8em;
     
         &:hover {
             border-color: $colorYellow;
@@ -354,6 +370,10 @@
                 transition: 0.5s; 
             }
         }
+    }
+
+    .btnNewsletter {
+        border-radius: 6px;
     }
 }
 
