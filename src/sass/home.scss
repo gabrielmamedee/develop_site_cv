@@ -12,11 +12,38 @@
 }
 
 #title {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    color: $colorWhite;
+    font-size: clamp(4em, 7em + 3vw, 11em);
+    line-height: 140px;
+    margin: 0;
+    padding: 0px;
+    text-shadow: 0px 1px 2px $colorBgShadow;
+}
+
+#titlecvm {
+    font-family: 'Bebas Neue', cursive;
+    color: $colorWhite;
+    font-size: clamp(4em, 1em + 3vw, 7em);
+    text-shadow: 0px 1px 2px $colorBgShadow;
+    
+    margin: 0;
+    padding: 0px;
 }
 
 #title2 {
     font-family: 'Albert Sans', sans-serif;
+    color: $colorWhite;
+    text-align: end;
+    font-size: clamp(1em, 1em + 2vw, 1.7em);
+    text-shadow: 0px 1px 2px $colorBgShadow;
+}
+
+#title2cvm {
+    font-family: 'Albert Sans', sans-serif;
+    color: $colorWhite;
+    font-size: 24px;
+    text-shadow: 0px 1px 2px $colorBgShadow;
 }
 .ourGoal {
     background-color: $colorBlack;
@@ -272,6 +299,18 @@
     }
 }
 @media (max-width: 480px) {
+
+    .itemsTitle {
+        flex-wrap: wrap;
+    }
+
+    #title {
+        line-height: 110px;
+    }
+
+    #title2 {
+        text-align: start;
+    }
 
     .questionCv {
         display: none;

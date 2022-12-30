@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans&family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|IBM+Plex+Sans:500&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css");
 @import url("http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css");
@@ -208,16 +209,42 @@
 .tilteHome {
   color: #FFFFFF;
   font-family: "Albert Sans", sans-serif;
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5215686275);
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3568627451);
   padding-top: 260px;
 }
 
 #title {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  color: #FFFFFF;
+  font-size: clamp(4em, 7em + 3vw, 11em);
+  line-height: 140px;
+  margin: 0;
+  padding: 0px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3568627451);
+}
+
+#titlecvm {
+  font-family: "Bebas Neue", cursive;
+  color: #FFFFFF;
+  font-size: clamp(4em, 1em + 3vw, 7em);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3568627451);
+  margin: 0;
+  padding: 0px;
 }
 
 #title2 {
   font-family: "Albert Sans", sans-serif;
+  color: #FFFFFF;
+  text-align: end;
+  font-size: clamp(1em, 1em + 2vw, 1.7em);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3568627451);
+}
+
+#title2cvm {
+  font-family: "Albert Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3568627451);
 }
 
 .ourGoal {
@@ -307,11 +334,11 @@
 }
 .cvm .topTextCvm {
   color: #FFFFFF;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5215686275);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3568627451);
 }
 .cvm .outTextCvm {
   color: #FFFFFF;
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5215686275);
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3568627451);
 }
 
 .bgNews {
@@ -437,6 +464,15 @@
   }
 }
 @media (max-width: 480px) {
+  .itemsTitle {
+    flex-wrap: wrap;
+  }
+  #title {
+    line-height: 110px;
+  }
+  #title2 {
+    text-align: start;
+  }
   .questionCv {
     display: none;
   }
