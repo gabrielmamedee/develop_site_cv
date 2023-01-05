@@ -130,20 +130,20 @@
   background: #0b0b0eeb;
   content: "";
 }
-.timeline-header {
+.timeLineHeader {
   width: 100%;
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
-.timeline-header__title {
+.timeLineHeaderTitle {
   color: #fff;
   font-size: 46px;
   font-family: Cardo;
   font-weight: normal;
   margin: 0;
 }
-.timeline-header__subtitle {
+.timeLineHeaderSubtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Pathway Gothic One", sans-serif;
   font-size: 16px;
