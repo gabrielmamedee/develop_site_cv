@@ -1,0 +1,166 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:400,700'
+@mixin block-content-background()
+  position: relative
+  flex-direction: column
+  background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/5DP9O3VZWI.jpg)
+  background-size: cover
+  background-position: center
+  color: white
+  > *
+    position: relative
+  &:before
+    position: absolute
+    content: ''
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(20,45,49,0.90)
+$dark-grey: rgba(20,45,49,1)
+$linen: rgba(245,237,234,1)
+$tomato: rgba(241,82,63,1)
+
+html
+  box-sizing: border-box
+  font-family: 'Open Sans', sans-serif
+*, *:before, *:after
+  box-sizing: inherit
+body
+  background: #333
+  overflow-x: hidden
+section
+  display: flex
+  flex-wrap: wrap
+.block
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  flex-basis: 100%
+.block--sm
+  height: auto
+.block--heading
+  background: $linen
+  h1
+    width: 200px
+    font-family: 'Playfair Display', serif
+    color: $dark-grey
+    font-size: 82px
+    letter-spacing: 1px
+    line-height: 1.2
+    transform: rotate(-5deg)
+    text-shadow: 9px 7px 0px $tomato
+.block--header
+  color: white
+  @include block-content-background()
+  h1
+    font-family: 'Playfair Display', serif
+    margin-bottom: 5px
+    font-size: 36px
+    letter-spacing: 0.3px
+  h5
+    font-style: italic
+    font-weight: 400
+    letter-spacing: 0.3px
+    font-size: 14px
+  hr
+    border-color: $tomato
+    width: 70%
+  .social-links
+    i
+      font-size: 22px
+      margin: 10px
+.block--hero-image
+  background: url(https://s30.postimg.org/h76qo2zn5/img.jpg)
+  background-size: cover
+  background-position: center
+.block--content
+  background: $tomato
+  flex-direction: column
+  text-align: center
+  padding: 0 2%
+  article
+    color: white
+    margin: 8px 0
+    &:last-child
+      color: $dark-grey
+      .date
+        border-color: $dark-grey
+  h5
+    margin: 0 0 15px
+    font-weight: 400
+    font-style: italic
+    letter-spacing: 1.5px
+    font-size: 16px
+    font-family: 'Playfair Display', serif
+  h4
+    margin: 25px 0 0px
+    font-size: 18px
+    text-transform: uppercase
+    letter-spacing: 2.5px
+  .work-link
+    text-decoration: none
+    color: white
+  .date
+    display: inline-block
+    border: 3px solid white
+    padding: 5px 22px
+    margin: 0
+    font-size: 13px
+    letter-spacing: 1.5px
+    text-transform: uppercase
+    font-weight: 600
+  hr
+    width: 220px
+    height: 2px
+    background: white
+    border: 0
+.reverse
+  .block--content
+    @include block-content-background()
+.block--work, .block--skills
+  article
+    color: white
+    &:last-child
+      color: white
+      .date
+        border-color: white
+    hr
+      background: $tomato
+@media only screen and (min-width: 720px)
+  section
+    height: 70vh
+  .reverse
+    .block:first-child
+      order: 2
+  .block
+    flex-basis: 50%
+    height: 100%
+  .block--heading
+    h1
+      font-size: 102px
+  .social-links i:hover
+    color: $tomato
+    cursor: pointer
+  .work-link
+    &:hover
+      color: $tomato
+@media only screen and (min-width: 1000px)
+  .block--heading
+    h1
+      font-size: 112px
+@media only screen and (min-width: 1300px)
+  section
+    max-width: 1300px
+    margin: 0 auto
+@media only screen and (max-height: 600px) and (orientation: landscape)
+  h5
+    margin: 5px 0 !important
+    font-size: 14px !important
+  h4
+    margin: 5px 0 !important
+    font-size: 16px !important
+  .date
+    margin: 5px 0 !important
+    font-size: 12px !important
+    

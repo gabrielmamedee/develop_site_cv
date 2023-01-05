@@ -287,7 +287,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  background-attachment: fixed;
   height: 78vh;
 }
 .endOurGoal .questionCv {
@@ -871,6 +870,93 @@ h3 {
   border-radius: 50%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.missaoVisao {
+  padding: 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.missaoVisao .leftMv {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg-amarelo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  font-family: "Bebas Neue", cursive;
+}
+.missaoVisao .leftMv .itemsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 250px;
+}
+.missaoVisao .rightMv {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  align-items: center;
+  margin-left: 40px;
+  background-color: #0b0b0e;
+  color: #FFFFFF;
+  font-family: "Albert Sans", sans-serif;
+}
+.missaoVisao .rightMv .textMv {
+  padding-left: 30px;
+}
+
+.gifArrow {
+  padding-top: 100px;
+  width: 100px;
+}
+
+.bordl {
+  padding-left: 5px;
+  border-left: 3px solid #FFE05C;
+}
+
+.bordbBlack {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0b0b0e;
+}
+
+.slide {
+  opacity: 1;
+  color: #0b0b0e;
+}
+.slide .carousel-item {
+  background-image: url(../img/bg-branco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 50vh;
+}
+.slide .carousel-item .itemDec {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleDec {
+  font-family: "Albert Sans", sans-serif;
+  color: #0b0b0e;
+  font-size: clamp(2em, 1em + 1.8vw, 5em);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3137254902);
+}
+
 .timeLine:before {
   content: "";
   position: absolute;
@@ -1013,6 +1099,26 @@ h3 {
 @media (max-width: 480px) {
   .imgTimeLine {
     width: 310px;
+  }
+  .bordl {
+    padding-left: 3px;
+    border-left: 2px solid #FFE05C;
+  }
+  .missaoVisao .leftMv {
+    width: 45%;
+    height: 100vh;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  .missaoVisao .rightMv {
+    width: 55%;
+    height: auto;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  .missaoVisao .rightMv .textMv {
+    padding-left: 15px;
+    padding-top: 18px;
   }
 }
 

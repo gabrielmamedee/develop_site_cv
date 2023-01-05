@@ -1,0 +1,233 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:400,700';
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #333;
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-basis: 100%;
+}
+
+.block--sm {
+  height: auto;
+}
+
+.block--heading {
+  background: #f5edea;
+}
+.block--heading h1 {
+  width: 200px;
+  font-family: "Playfair Display", serif;
+  color: #142d31;
+  font-size: 82px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  transform: rotate(-5deg);
+  text-shadow: 9px 7px 0px #f1523f;
+}
+
+.block--header {
+  color: white;
+  position: relative;
+  flex-direction: column;
+  background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/5DP9O3VZWI.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.block--header > * {
+  position: relative;
+}
+.block--header:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 45, 49, 0.9);
+}
+.block--header h1 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 5px;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+}
+.block--header h5 {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 14px;
+}
+.block--header hr {
+  border-color: #f1523f;
+  width: 70%;
+}
+.block--header .social-links i {
+  font-size: 22px;
+  margin: 10px;
+}
+
+.block--hero-image {
+  background: url(https://s30.postimg.org/h76qo2zn5/img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.block--content {
+  background: #f1523f;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2%;
+}
+.block--content article {
+  color: white;
+  margin: 8px 0;
+}
+.block--content article:last-child {
+  color: #142d31;
+}
+.block--content article:last-child .date {
+  border-color: #142d31;
+}
+.block--content h5 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+.block--content h4 {
+  margin: 25px 0 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.block--content .work-link {
+  text-decoration: none;
+  color: white;
+}
+.block--content .date {
+  display: inline-block;
+  border: 3px solid white;
+  padding: 5px 22px;
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.block--content hr {
+  width: 220px;
+  height: 2px;
+  background: white;
+  border: 0;
+}
+
+.reverse .block--content {
+  position: relative;
+  flex-direction: column;
+  background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/5DP9O3VZWI.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.reverse .block--content > * {
+  position: relative;
+}
+.reverse .block--content:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 45, 49, 0.9);
+}
+
+.block--work article, .block--skills article {
+  color: white;
+}
+.block--work article:last-child, .block--skills article:last-child {
+  color: white;
+}
+.block--work article:last-child .date, .block--skills article:last-child .date {
+  border-color: white;
+}
+.block--work article hr, .block--skills article hr {
+  background: #f1523f;
+}
+
+@media only screen and (min-width: 720px) {
+  section {
+    height: 70vh;
+  }
+
+  .reverse .block:first-child {
+    order: 2;
+  }
+
+  .block {
+    flex-basis: 50%;
+    height: 100%;
+  }
+
+  .block--heading h1 {
+    font-size: 102px;
+  }
+
+  .social-links i:hover {
+    color: #f1523f;
+    cursor: pointer;
+  }
+
+  .work-link:hover {
+    color: #f1523f;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .block--heading h1 {
+    font-size: 112px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  section {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+  h5 {
+    margin: 5px 0 !important;
+    font-size: 14px !important;
+  }
+
+  h4 {
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+  }
+
+  .date {
+    margin: 5px 0 !important;
+    font-size: 12px !important;
+  }
+}
