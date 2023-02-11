@@ -1,8 +1,8 @@
 const persons = [
   {
-    name: "Amber Gibs",
-    photo: "https://serving.photos.photobox.com/53464066dc132288128cb11531bb767f0082dcde75f3b845cd905d38c4223e95e0dc7bc9.jpg",
-    title: "Developer",
+    name: "PR. SÉRGIO E SAMARA QUEIROZ",
+    photo: "img/sergio.jpg",
+    title: "Liderança Sênior",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
@@ -12,9 +12,9 @@ const persons = [
     }
   },
   {
-    name: "Carl Roland",
-    photo: "https://serving.photos.photobox.com/2226093445b640ea69b3247d4e4a31ee16d7569a38f898affce33adc8fc8d0f3ecf79591.jpg",
-    title: "Developer",
+    name: "PR. JOSÉ MARCELO E MICHELINE PAES",
+    photo: "img/ze.jpg",
+    title: "Vice-Presidente Igreja Cidade Viva",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
@@ -24,9 +24,9 @@ const persons = [
     }
   },
   {
-    name: "Paul Wilson",
-    photo: "https://serving.photos.photobox.com/80553616a29779bd113f7a340b9b1eae3636dd38534c57877597a17b7131be741c67b3ae.jpg",
-    title: "UI Designer",
+    name: "PR. THIAGO E DAYANNE DUTRA",
+    photo: "img/thiago.jpg",
+    title: "Núcleo de Educação",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
@@ -36,9 +36,105 @@ const persons = [
     }
   },
   {
-    name: "Alice Jenkins",
-    photo: "https://serving.photos.photobox.com/52898788b03c8a0e32a8cb52b4d43d7525f119daa2629569dbda0a8d827192217fb64c22.jpg",
-    title: "QA Engineer",
+    name: "PR. JOSEMAR E MAYRA BANDEIRA",
+    photo: "img/josemar.jpg",
+    title: "Rede Guardiões",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. HYGOR E GABRIELA DUARTE",
+    photo: "img/higor.jpg",
+    title: "Rede S2 (Casais) e Rede Kids",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. DANIEL E JAMILE CORREIA",
+    photo: "img/Daniel.jpg",
+    title: "Comunicação e Igreja Cidade Viva Altiplano",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. MOISÉS E TEONISE LIMA",
+    photo: "img/moises.jpg",
+    title: "Núcleo de Cuidado Comunitário e Igreja Cidade Viva Zona Sul",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. PEDRO E ELISANGELA VIANA",
+    photo: "img/pedro.jpg",
+    title: "Núcleo de Integração e Capela Cidade Viva",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. ARTHUR E FLÁVIA MEDEIROS",
+    photo: "img/sape.jpg",
+    title: "Igreja Cidade Viva Sapé e Cruz do Espírito Santo",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PR. RICARDO E ANDREZZA GUIMARÃES",
+    photo: "img/campina.jpg",
+    title: "Igreja Cidade Viva Campina Grande",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "PAULO E ÉRIKA MELO",
+    photo: "img/paulo.jpg",
+    title: "Presbítero Igreja Cidade Viva",
+    bio:
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+    social: {
+      facebook: "#",
+      twitter: "https://twitter.com/knyttneve",
+      linkedin: "#"
+    }
+  },
+  {
+    name: "JAMES E KALINA GRISI",
+    photo: "img/james.jpg",
+    title: "Presbítero Igreja Cidade Viva",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {

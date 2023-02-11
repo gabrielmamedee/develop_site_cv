@@ -13,7 +13,7 @@
 <div :class="['container', isSelected ? 'container-selected':'', isReady ? 'container-ready':'']" id="app">
   <div class="team-container">
     <div class="header">
-      <h2 class="header-title">Our Team</h2>
+      <!--<h2 class="header-title">Our Team</h2>-->
     </div>
     <div class="person-list">
       <div class="person" v-for="(person,index) in persons" @click="selectPerson(index,$event)"><img class="person-img" :src="person.photo">
