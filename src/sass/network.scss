@@ -4,6 +4,8 @@
 .shadow-effect {
 	background: #fff;
 	padding: 20px;
+	width: 358px;
+	height: 355px;
 	border-radius: 4px;
 	text-align: center;
 	border:1px solid #ECECEC;
@@ -14,7 +16,7 @@
 	font-size: 17px;
 	line-height: 1.5;
 	margin: 0 0 17px 0;
-	font-weight: 300;
+	font-size: 14px;
 }
 		.testimonial-name {
 		    margin: -17px auto 0;
@@ -45,7 +47,7 @@
 		}
 		.owl-carousel .owl-item img {
 		    transform-style: preserve-3d;
-		    max-width: 90px;
+		    max-width: 110px;
     		margin: 0 auto 17px;
 		}
 		#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
