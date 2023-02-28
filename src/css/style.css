@@ -60,7 +60,7 @@
 .navConfig .navPlus ul {
   margin: 0;
   width: 300px;
-  gap: 23px;
+  gap: 8px;
 }
 .linkFundMobile {
   display: none;
@@ -551,6 +551,11 @@
   }
   .threeC {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 1285px) {
+  .ourGoal .imgOurGoal {
+    width: 690px;
   }
 }
 @media (max-width: 1440px) {
